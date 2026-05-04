@@ -41,6 +41,7 @@ This project uses both classical machine learning and deep learning approaches t
 
 ### 2. Small Health GPT
 
+![Small Health GPT Frontend](assets/shg.png)
 Small Health GPT is a full-stack machine learning project that builds a small GPT-style model for health information.
 
 The project is inspired by Andrej Karpathy’s transformer lectures and focuses on understanding how transformer-based language models work from the ground up.

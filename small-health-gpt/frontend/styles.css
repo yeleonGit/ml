@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #f4f1ea;
+    color: #151515;
+  }
+  
+  .app {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 32px;
+  }
+  
+  .panel {
+    width: min(900px, 100%);
+    background: #fffdf7;
+    border: 2px solid #111;
+    box-shadow: 10px 10px 0 #111;
+    padding: 32px;
+  }
+  
+  .header {
+    border-bottom: 2px solid #111;
+    padding-bottom: 20px;
+    margin-bottom: 24px;
+  }
+  
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 13px;
+    font-weight: 800;
+    margin: 0 0 8px;
+  }
+  
+  h1 {
+    font-size: clamp(36px, 6vw, 72px);
+    line-height: 0.95;
+    margin: 0;
+    letter-spacing: -0.06em;
+  }
+  
+  .subtitle {
+    max-width: 580px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 16px;
+  }
+  
+  label {
+    display: block;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    width: 100%;
+    min-height: 160px;
+    resize: vertical;
+    border: 2px solid #111;
+    background: #fff;
+    padding: 16px;
+    font-size: 16px;
+    line-height: 1.5;
+    outline: none;
+  }
+  
+  textarea:focus {
+    box-shadow: 5px 5px 0 #111;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  
+  button {
+    border: 2px solid #111;
+    background: #111;
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+    padding: 12px 18px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: white;
+    color: #111;
+  }
+  
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  #status {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+  .output {
+    margin-top: 32px;
+    border-top: 2px solid #111;
+    padding-top: 20px;
+  }
+  
+  .output h2 {
+    margin-top: 0;
+  }
+  
+  pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    min-height: 120px;
+    background: #111;
+    color: #f8f8f8;
+    padding: 18px;
+    font-size: 15px;
+    line-height: 1.6;
+  }

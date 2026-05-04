@@ -10,7 +10,7 @@ The goal of this repo is to document my progress while building practical ML sys
 ## Projects
 
 ### 1. Wimbledon Match Prediction
-
+![tennis graph](assets/tennis-graph.png)
 A tennis match prediction project focused on Wimbledon results.
 
 This project uses both classical machine learning and deep learning approaches to predict tennis match outcomes.

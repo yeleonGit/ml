@@ -83,6 +83,30 @@ This is not meant to replace medical advice. It is an educational project for le
 
 ---
 
+### 3. Tic-Tac-Toe JEPA
+
+![Training Loss](assets/t_loss.png)
+
+A **Joint Embedding Predictive Architecture (JEPA)** that learns to play Tic-Tac-Toe by predicting future latent states — building an internal "imagination" of how the game evolves — without any reward signal.
+
+#### Key Results
+
+- Achieved **100% win rate** against a depth-limited Minimax expert
+- Includes an interactive GUI built with `ipywidgets` to play against the JEPA agent
+- Uses VicReg-based loss components (invariance, variance, covariance)
+
+#### Skills Practiced
+
+- Self-supervised learning
+- Joint Embedding Predictive Architecture
+- Latent state prediction
+- PyTorch
+- Self-play data generation
+- PCA visualization of latent spaces
+- Interactive notebook widgets
+
+---
+
 ## Repository Goals
 
 This repo is meant to show my development as a machine learning engineer by building projects that are practical, understandable, and complete.

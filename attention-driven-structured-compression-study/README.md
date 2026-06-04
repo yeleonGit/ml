@@ -6,7 +6,7 @@ Explored across three datasets: MNIST, CIFAR-10, and California Housing (regress
 
 ## How It Works
 
-Instead of pruning by magnitude or randomly, ADSC learns an **attention权重** for each channel/layer during training. Channels with low attention are pruned; channels with high attention are preserved. This allows the network to decide which parts are important.
+Instead of pruning by magnitude or randomly, ADSC learns an **attention weight** for each channel/layer during training. Channels with low attention are pruned; channels with high attention are preserved. This allows the network to decide which parts are important.
 
 ### Compression Loss
 
@@ -42,6 +42,12 @@ Three benchmarks, each with a teacher-student setup:
 
 - `adsc_study.ipynb` — Full notebook with experiments
 - `teacher_*.pt` / `student_*.pt` — Trained model weights for each dataset
+
+## Reference
+
+This study is based on the paper:  
+**"Attention-Driven Structured Compression of Neural Networks"**  
+<https://pubmed.ncbi.nlm.nih.gov/42014788/>
 
 ## Libraries
 

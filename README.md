@@ -18,6 +18,10 @@ A small GPT-style transformer trained on health Q&A, with a backend API and fron
 ![Training Loss](assets/t_loss.png)
 A Joint Embedding Predictive Architecture that learns to play Tic-Tac-Toe by predicting future latent states — no rewards needed. Achieved 100% win rate against a depth-limited Minimax expert.
 
+### 4. Attention-Driven Structured Compression Study
+![ADSC Results](assets/adsc_results.png)
+A study of attention-driven structured compression for neural networks — using learned attention weights to selectively prune channels/layers while preserving accuracy. Explored across MNIST, CIFAR-10, and California Housing datasets, comparing teacher-student compression with uniform and non-attention baselines.
+
 ---
 
 ## Disclaimer

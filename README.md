@@ -22,7 +22,6 @@ A Joint Embedding Predictive Architecture that learns to play Tic-Tac-Toe by pre
 A study of attention-driven structured compression for neural networks — using learned attention weights to selectively prune channels/layers while preserving accuracy. Explored across MNIST, CIFAR-10, and California Housing datasets, comparing teacher-student compression with uniform and non-attention baselines.
 
 ---
-
 ## Disclaimer
 
 Small Health GPT is for educational purposes only. Not a substitute for professional medical advice.

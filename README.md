@@ -1,5 +1,4 @@
 # Machine Learning Projects
-
 A collection of ML projects — from classical models to transformers and self-supervised learning.
 
 ---
